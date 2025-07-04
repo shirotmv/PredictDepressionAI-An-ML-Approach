@@ -1,0 +1,22 @@
+{
+  "routes": [
+    "/aislamiento",
+    "/apoyo",
+    "/consejos",
+    "/depresion",
+    "/enlaces",
+    "/estre",
+    "/evaluacion",
+    "/herramientas",
+    "/home",
+    "/inicio",
+    "/lateral",
+    "/notfound",
+    "/noticias",
+    "/preguntas",
+    "/procrastinacion",
+    "/recursos-ayuda",
+    "/rendimiento",
+    "/tipo-jugador"
+  ]
+}
