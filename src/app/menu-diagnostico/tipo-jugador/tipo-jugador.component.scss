@@ -1,0 +1,31 @@
+/* Barra lateral */
+.menu-lateral {
+    width: 250px;
+    background-color: #0D0A3A;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    box-shadow: 2px 0px 10px rgba(0, 0, 0, 0.1);
+    position: fixed; /* Hace que la barra se quede fija */
+    height: 100vh; /* Asegura que ocupe toda la altura de la pantalla */
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+/* Menú central */
+.menu-central {
+    margin-left: 250px; /* Para que no sobrepase el menú lateral */
+    padding: 50px; /* Reducir padding para evitar el desbordamiento */
+    width: calc(100% - 250px); /* Ajuste para que el contenido ocupe el resto del espacio */
+    height: auto; /* Ajuste automático de altura según el contenido */
+    max-height: 100vh; /* Evita que se expanda más allá de la pantalla */
+    display: flex;
+    flex-direction: column;
+    color: black;
+    overflow-y: auto; /* Permite desplazamiento solo si el contenido excede el área */
+    box-sizing: border-box; /* Asegura que el padding no afecte el tamaño total */
+}
+

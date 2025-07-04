@@ -1,0 +1,91 @@
+.evaluacion-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;  /* Alineación superior */
+    height: 100vh;
+    height: auto; /* Ajuste automático de altura según el contenido */
+
+}
+
+.evaluacion-card {
+    background-color: #fff;
+    border-radius: 20px;
+    width: 90%;  /* Aumentar el tamaño del cuadro */
+    max-width: 700px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    text-align: left;  /* Alineación de texto a la izquierda */
+    display: flex;
+    justify-content: space-between;  /* Distribuye el contenido */
+    position: relative;
+    margin-top: 30px;  /* Espacio desde la parte superior */
+}
+
+.card-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.text-content {
+    width: 65%;  /* Ocupa el 65% del espacio */
+}
+
+.evaluacion-title {
+    font-size: 26px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.evaluacion-subtitle {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.buttons-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.button-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.question {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.button {
+    background-color: #007BFF;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+.avatar-container {
+    width: 30%;  /* Ocupa el 30% del espacio */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.avatar {
+    width: 320px;
+    height: 640px;
+
+}

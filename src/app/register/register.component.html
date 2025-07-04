@@ -1,0 +1,35 @@
+<!-- register.component.html -->
+<div class="register-container">
+    <div class="register-card">
+      <div class="title">Crear Cuenta</div>
+      <div class="subtitle">Únete a nuestra comunidad de bienestar estudiantil</div>
+      <form class="form">
+        <div class="form-group">
+          <label for="fullName">Nombre Completo</label>
+          <input id="fullName" type="text" />
+        </div>
+        <div class="form-group">
+          <label for="university">Universidad</label>
+          <input id="university" type="text"/>
+        </div>
+        <div class="form-group">
+          <label for="email">Email Universitario</label>
+          <input id="email" type="email"/>
+        </div>
+        <div class="form-group">
+          <label for="career">Carrera</label>
+          <input id="career" type="text"/>
+        </div>
+        <div class="form-group">
+          <label for="password">Contraseña</label>
+          <input id="password" type="password"/>
+        </div>
+        <div class="form-group">
+          <label for="confirmPassword">Comprobar contraseña</label>
+          <input id="confirmPassword" type="password"/>
+        </div>
+        <button class="btn primary" type="submit" [routerLink]="['/login']">Crear Cuenta</button>
+      </form>
+    </div>
+  </div>
+  

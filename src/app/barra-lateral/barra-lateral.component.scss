@@ -1,0 +1,77 @@
+/* Contenedor principal */
+.layout-container {
+    display: flex;
+    height: 100vh;
+}
+
+/* Barra lateral */
+.barra-lateral {
+    width: 250px;
+    background-color: #0D0A3A;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo para la imagen y el título */
+.img-titulo {
+
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.lateral-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.item-title {
+
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Estilo para los botones */
+.menu-eva-item {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 18px;
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+/* Estilo para los íconos dentro de los botones */
+.menu-eva-item i {
+    margin-right: 15px;
+    font-size: 20px;
+}
+
+/* Efecto de hover para los botones */
+.menu-eva-item:hover {
+    background-color: #34495e;
+}
+
+/* Efecto de foco para los botones */
+.menu-eva-item:focus {
+    outline: none;
+    background-color: #2980b9;
+}
+
+/* Estilos adicionales para los botones inactivos */
+.menu-eva-item:disabled {
+    background-color: #7f8c8d;
+    cursor: not-allowed;
+}

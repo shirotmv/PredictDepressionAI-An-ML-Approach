@@ -1,0 +1,109 @@
+/* Contenedor principal */
+:root {
+    --background-color: #ddd; /* Definimos la variable */
+  }
+.general{
+    background-color: var(--background-color); /* Usamos la variable */
+}
+.hero-section {
+    background-color: #0D0A3A; /* Fondo azul oscuro */
+    
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    border-bottom: 3px solid #1A1A5E; /* Línea decorativa */
+}
+
+/* Título principal */
+.hero-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* Subtítulo */
+.hero-subtitle {
+    font-size: 1.2rem;
+    color: #CCC;
+    margin-bottom: 30px;
+}
+
+/* Botón */
+.hero-button {
+    background-color: #4268E4;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.hero-button:hover {
+    background-color: #3152b7;
+}
+
+.hero-button:active {
+    transform: scale(0.95);
+}
+
+/* Contenedor de tarjetas */
+.cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+    flex-wrap: wrap; /* Permite que las cards se adapten en pantallas pequeñas */
+    
+}
+
+/* Tarjetas */
+.card {
+    background-color: white;
+    color: black;
+    width: 300px;
+    height: 180px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px); /* Levanta la tarjeta al pasar el mouse */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Imagen de la tarjeta */
+.card-img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+/* Título de la tarjeta */
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Texto de la tarjeta */
+.card-text {
+    font-size: 1rem;
+    color: #666;
+}
+
+
+
+
+

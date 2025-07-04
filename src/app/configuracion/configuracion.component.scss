@@ -1,0 +1,84 @@
+/* Barra lateral */
+.menu-lateral {
+    width: 250px;
+    background-color: #0D0A3A;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    box-shadow: 2px 0px 10px rgba(0, 0, 0, 0.1);
+    position: fixed; /* Hace que la barra se quede fija */
+    height: 100vh; /* Asegura que ocupe toda la altura de la pantalla */
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+/* Menú central */
+.menu-central {
+    margin-left: 250px; /* Para que no sobrepase el menú lateral */
+    padding: 50px; /* Reducir padding para evitar el desbordamiento */
+    width: calc(100% - 250px); /* Ajuste para que el contenido ocupe el resto del espacio */
+    height: auto; /* Ajuste automático de altura según el contenido */
+    max-height: 100vh; /* Evita que se expanda más allá de la pantalla */
+    display: flex;
+    flex-direction: column;
+    color: black;
+    overflow-y: auto; /* Permite desplazamiento solo si el contenido excede el área */
+    box-sizing: border-box; /* Asegura que el padding no afecte el tamaño total */
+}
+
+
+
+
+.config-header {
+    margin-left: 20px; /* Mueve el título 20px hacia la derecha */
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.config-header h1 {
+    font-size: 40px; /* Ajusté el tamaño del título */
+    font-weight: bold;
+    margin-left: 20px; /* Mueve el título 20px hacia la derecha */
+    color: #000000;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.config-card {
+    margin-left: 20px; /* Mueve el título 20px hacia la derecha */
+
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+}
+
+.config-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.config-card i {
+    
+    font-size: 40px;
+    color: #4268E4;
+    margin-bottom: 15px;
+}
+
+.config-card p {
+    font-size: 18px;
+    color: #555;
+}

@@ -1,0 +1,38 @@
+
+<div class="layout-container">
+  <!-- Barra lateral -->
+  <div class="barra-lateral">
+      <div class="img-titulo">
+          <img class="lateral-img" src="https://s3-alpha-sig.figma.com/img/156e/e29b/41183c7e3ec7fd71746891c4bfc8794e?Expires=1733702400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Pw~HuNGoWwQfCv1uUmRDMUJ8itIdBST9MpgKq2-HqLAA00kC1YafXjJJABPYPHAEOPgG9dmJZUoEGy12aIx0iJZageMQm98kdKDiMOGfAG2W3Dikpl68jgv6WmbOOuw0qFxigZqVDXcerDc9Idk5TkOZWdW1z~HugmN~e34n0Oa8-i6V8I4n9NlXO8QC7oi4bz0BSLk-FSbnSwAvI7Zm~gR76h0Oi5vTbmkKNDIEJH0~wmjQxQbnb4oQ1~V5C69bPXYs6vbha6MYi3UT9RRlZVNeAnbC5h641YaEFr3ZzOVRHLrn9swm7MCR~XNT~u3PNo-0~2uC2kmeMIXMJcCnfQ__" alt="Logo">
+          <span class="item-title" >UniMental</span>
+      </div>
+
+      <!-- Botones en lugar de divs -->
+      <button class="menu-eva-item" [routerLink]="['/inicio_d']">
+          <i class="fas fa-home"></i> Inicio
+      </button>
+
+      <button class="menu-eva-item" [routerLink]="['/evaluacion']">
+
+          <i class="fas fa-chart-line"></i> Evaluaciones
+      </button>
+      <button class="menu-eva-item" [routerLink]="['/historial']">
+        <i class="fas fa-file-alt"></i> Historial
+    </button>
+
+
+      <button class="menu-eva-item" [routerLink]="['/configuracion']">
+
+          <i class="fas fa-cogs"></i> Configuración
+      </button>
+      <button class="menu-eva-item" [routerLink]="['/perfil']">
+
+        <i class="fas fa-user-circle"></i> Perfil
+    </button>
+      <button class="menu-eva-item" [routerLink]="['/login']">
+        <i class="fas fa-sign-out-alt"></i> Logout
+    </button>
+
+  <!-- Enlace a la librería de FontAwesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</div>

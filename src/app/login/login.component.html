@@ -1,0 +1,23 @@
+<div class="login-container">
+    <div class="login-card">
+      <div class="logo">
+        <img src="https://s3-alpha-sig.figma.com/img/156e/e29b/41183c7e3ec7fd71746891c4bfc8794e?Expires=1733702400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Pw~HuNGoWwQfCv1uUmRDMUJ8itIdBST9MpgKq2-HqLAA00kC1YafXjJJABPYPHAEOPgG9dmJZUoEGy12aIx0iJZageMQm98kdKDiMOGfAG2W3Dikpl68jgv6WmbOOuw0qFxigZqVDXcerDc9Idk5TkOZWdW1z~HugmN~e34n0Oa8-i6V8I4n9NlXO8QC7oi4bz0BSLk-FSbnSwAvI7Zm~gR76h0Oi5vTbmkKNDIEJH0~wmjQxQbnb4oQ1~V5C69bPXYs6vbha6MYi3UT9RRlZVNeAnbC5h641YaEFr3ZzOVRHLrn9swm7MCR~XNT~u3PNo-0~2uC2kmeMIXMJcCnfQ__" alt="UniMental Logo" />
+      </div>
+      <div class="title">UniMental</div>
+      <div class="pretitle">Login</div>
+      <div class="subtitle">Bienvenido de nuevo a tu espacio de bienestar</div>
+      <form class="form">
+        <div class="form-group">
+          <label for="email">Email Universitario</label>
+          <input id="email" type="email"/>
+        </div>
+        <div class="form-group">
+          <label for="password">Contraseña</label>
+          <input id="password" type="password"/>
+        </div>
+        <a class="forgot-password" href="#">¿Olvidaste tu contraseña?</a>
+        <button class="btn primary" type="submit" [routerLink]="['/evaluacion']">Iniciar Sesión</button>
+        <button class="btn secondary" type="button" [routerLink]="['/register']">Registrar Cuenta</button>
+      </form>
+    </div>
+</div>
